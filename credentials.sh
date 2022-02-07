@@ -14,5 +14,4 @@ aws_session_token=$(jq -r .Token cred.json)
 EOF
 rm cred.json
 
-shift
 $@
