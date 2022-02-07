@@ -15,4 +15,4 @@ EOF
 rm cred.json
 
 shift
-exec $@
+$@
