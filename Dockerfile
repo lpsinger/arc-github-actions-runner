@@ -1,3 +1,4 @@
 FROM myoung34/github-runner
 COPY credentials.sh /
-CMD ["/credentials.sh", "/ephemeral-runner.sh"]
+# Kill after 4 hours, because the credentials last for 6 hours by default.
+CMD ["/credentials.sh", "timeout", "4h", "/ephemeral-runner.sh"]
