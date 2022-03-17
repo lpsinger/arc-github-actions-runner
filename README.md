@@ -1,4 +1,4 @@
-# Self-Hosted GitHub Actions Runner for Architect Packages on Amazon ECS
+# Self-Hosted GitHub Actions Runner for Deploying Architect Packages on Amazon ECS
 
 This is a Docker image for a [self-hosted GitHub Actions runner] based on the
 excellent [myoung34/docker-github-actions-runner] project. It is meant to be
